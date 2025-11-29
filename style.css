@@ -69,7 +69,7 @@ nav {
 }
 
 .section h2 {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   padding-left: 10px;
   border-left: 4px solid #4a90e2;
   color: #1f4e79;
@@ -79,7 +79,6 @@ nav {
 .hero {
   background: linear-gradient(135deg, #1f4e79, #4a90e2);
   color: #ffffff;
-  box-shadow: none;
   text-align: center;
 }
 
@@ -112,7 +111,7 @@ nav {
   font-size: 15px;
   text-decoration: none;
   font-weight: 600;
-  transition: 0.3s ease;
+  transition: 0.3s;
 }
 
 .btn.primary {
@@ -146,7 +145,7 @@ nav {
   border: 4px solid #4a90e2;
 }
 
-/* CARD GRID (PROJECTS + SKILLS) */
+/* CARD GRID */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -159,8 +158,7 @@ nav {
   border-radius: 12px;
   padding: 18px 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  position: relative;
+  transition: 0.3s;
 }
 
 .card:hover {
@@ -175,7 +173,12 @@ nav {
   margin-bottom: 10px;
 }
 
-/* CONTACT SECTION */
+.card h3 {
+  margin-bottom: 8px;
+  color: #1f4e79;
+}
+
+/* CONTACT */
 #contact p {
   font-size: 16px;
   margin-bottom: 10px;
@@ -201,23 +204,24 @@ nav {
 footer {
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
   background: #1f4e79;
   color: white;
   font-size: 14px;
+  margin-top: 40px;
 }
 
 /* ANIMATIONS */
 .fade-in {
   opacity: 0;
-  transform: translateY(15px);
+  transform: translateY(20px);
   animation: fadeUp 0.7s ease-out forwards;
 }
 
 #about.fade-in { animation-delay: 0.1s; }
 #projects.fade-in { animation-delay: 0.2s; }
 #skills.fade-in { animation-delay: 0.3s; }
-#contact.fade-in { animation-delay: 0.4s; }
+#extra.fade-in { animation-delay: 0.4s; }
+#contact.fade-in { animation-delay: 0.5s; }
 
 @keyframes fadeUp {
   to {
