@@ -25,10 +25,15 @@
         <li><a href="#extra">Extra</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+
+      <!-- Dark Mode Toggle -->
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
     </nav>
   </header>
 
-  <!-- HOME SECTION -->
+  <!-- HOME -->
   <section id="home" class="section hero fade-in">
     <div class="hero-content">
       <h1>Hello, I'm <span class="highlight">E. Rohit Kumar</span></h1>
@@ -42,145 +47,133 @@
     </div>
   </section>
 
-  <!-- ABOUT SECTION -->
+  <!-- ABOUT -->
   <section id="about" class="section alt fade-in">
     <h2>About Me</h2>
 
     <div class="about-container">
       <img src="images/Rohit1.png" alt="Profile Picture">
-
       <p>
-        Hello! I'm Rohit, a dedicated Computer Science and Engineering undergraduate with a strong interest in software 
-        development and web technologies. I enjoy turning ideas into functional, user-friendly applications and have 
-        hands-on experience in Java, Python, C, C++, HTML, and CSS.
+        Hello! I'm Rohit, a dedicated Computer Science and Engineering undergraduate with a strong interest 
+        in software development and web technologies. I enjoy turning ideas into functional, user-friendly 
+        applications and have hands-on experience in Java, Python, C, C++, HTML, and CSS.
         <br><br>
-
-        I have built projects ranging from console-based Java applications to responsive websites, including an 
-        E-Commerce System, a Weather App, and this portfolio you’re viewing now. These projects have strengthened my 
-        understanding of OOP, data structures, algorithms, and clean UI design.
+        I have built projects ranging from console-based Java applications to responsive websites, including 
+        an E-Commerce System, a Weather App, and this portfolio you’re viewing now. These projects strengthened 
+        my understanding of OOP, DSA, and clean UI design.
         <br><br>
-
-        I love problem-solving, learning new tools, and improving my development skills through practical projects. 
-        My long-term goal is to grow into a full-stack developer and contribute to meaningful software solutions that 
-        create real-world impact.
+        I love problem-solving, learning new tools, and improving my development skills through practical 
+        projects. My goal is to grow into a full-stack developer and contribute to meaningful software solutions.
       </p>
     </div>
   </section>
 
-  <!-- PROJECTS SECTION -->
+  <!-- PROJECTS -->
   <section id="projects" class="section fade-in">
     <h2>Projects</h2>
 
     <div class="card-grid">
 
       <div class="card project-card">
-        <div class="card-icon">
-          <i class="fa-solid fa-globe"></i>
-        </div>
+        <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
         <h3>Portfolio Website</h3>
-        <p>A fully responsive personal portfolio with a modern layout, clean UI, smooth animations, and a resume download feature.</p>
+        <p>A responsive portfolio with modern UI, animations, dark mode, and resume download support.</p>
+        <a href="https://github.com/ROHIT26-ESPA" target="_blank" class="btn secondary small">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
       </div>
 
       <div class="card project-card">
-        <div class="card-icon">
-          <i class="fa-solid fa-cart-shopping"></i>
-        </div>
+        <div class="card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
         <h3>Java E-Commerce Console App</h3>
-        <p>A menu-driven shopping system with login, product browsing, cart operations, and checkout using OOP & Collections.</p>
+        <p>A menu-based shopping system with login, cart handling, checkout, and product browsing.</p>
+        <a href="https://github.com/ROHIT26-ESPA" target="_blank" class="btn secondary small">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
       </div>
 
       <div class="card project-card">
-        <div class="card-icon">
-          <i class="fa-solid fa-cloud-sun"></i>
-        </div>
+        <div class="card-icon"><i class="fa-solid fa-cloud-sun"></i></div>
         <h3>Java Weather Console App</h3>
-        <p>A console weather tool displaying temperature, humidity, and conditions with Celsius–Fahrenheit conversion.</p>
+        <p>Displays temperature, humidity, city weather, plus Celsius–Fahrenheit conversion.</p>
+        <a href="https://github.com/ROHIT26-ESPA" target="_blank" class="btn secondary small">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
       </div>
 
     </div>
   </section>
 
-  <!-- SKILLS SECTION -->
+  <!-- SKILLS -->
   <section id="skills" class="section alt fade-in">
     <h2>Skills</h2>
 
     <div class="card-grid">
-
-      <div class="card skill-card">
-        <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-        <h3>Programming</h3>
-        <p>Java, Python, C, C++</p>
-      </div>
-
-      <div class="card skill-card">
-        <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
-        <h3>Web Development</h3>
-        <p>HTML, CSS</p>
-      </div>
-
-      <div class="card skill-card">
-        <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
-        <h3>Core Concepts</h3>
-        <p>OOP, DSA, API Integration</p>
-      </div>
-
-      <div class="card skill-card">
-        <div class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-        <h3>Tools</h3>
-        <p>VS Code, Git, GitHub</p>
-      </div>
-
-      <div class="card skill-card">
-        <div class="card-icon"><i class="fa-solid fa-users"></i></div>
-        <h3>Soft Skills</h3>
-        <p>Problem-solving, Teamwork, Adaptability</p>
-      </div>
-
+      <div class="card skill-card"><div class="card-icon"><i class="fa-solid fa-code"></i></div><h3>Programming</h3><p>Java, Python, C, C++</p></div>
+      <div class="card skill-card"><div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div><h3>Web Development</h3><p>HTML, CSS</p></div>
+      <div class="card skill-card"><div class="card-icon"><i class="fa-solid fa-brain"></i></div><h3>Core Concepts</h3><p>OOP, DSA, API Integration</p></div>
+      <div class="card skill-card"><div class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div><h3>Tools</h3><p>VS Code, Git, GitHub</p></div>
+      <div class="card skill-card"><div class="card-icon"><i class="fa-solid fa-users"></i></div><h3>Soft Skills</h3><p>Problem-solving, Teamwork</p></div>
     </div>
   </section>
 
-  <!-- LANGUAGES + LOCATION SECTION -->
+  <!-- LANGUAGES & LOCATION -->
   <section id="extra" class="section fade-in">
     <h2>Languages & Location</h2>
 
     <div class="card-grid">
-
-      <div class="card skill-card">
-        <div class="card-icon"><i class="fa-solid fa-language"></i></div>
-        <h3>Languages</h3>
-        <p>English, Hindi, Odia</p>
-      </div>
-
-      <div class="card skill-card">
-        <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
-        <h3>Location</h3>
-        <p>Bhubaneswar, Odisha, India</p>
-      </div>
-
+      <div class="card skill-card"><div class="card-icon"><i class="fa-solid fa-language"></i></div><h3>Languages</h3><p>English, Hindi, Odia</p></div>
+      <div class="card skill-card"><div class="card-icon"><i class="fa-solid fa-location-dot"></i></div><h3>Location</h3><p>Bhubaneswar, Odisha, India</p></div>
     </div>
   </section>
 
-  <!-- CONTACT SECTION -->
+  <!-- CONTACT -->
   <section id="contact" class="section fade-in">
     <h2>Contact Me</h2>
 
-    <p><i class="fa-solid fa-envelope"></i> Email: 
+    <p><i class="fa-solid fa-envelope"></i> 
       <a href="mailto:esparohitkumar@gmail.com">esparohitkumar@gmail.com</a>
     </p>
 
-    <p><i class="fa-brands fa-linkedin"></i> LinkedIn:
+    <p><i class="fa-brands fa-linkedin"></i> 
       <a href="https://linkedin.com/in/esparohitkumar" target="_blank">linkedin.com/in/esparohitkumar</a>
     </p>
 
-    <p><i class="fa-brands fa-github"></i> GitHub:
+    <p><i class="fa-brands fa-github"></i> 
       <a href="https://github.com/ROHIT26-ESPA" target="_blank">github.com/ROHIT26-ESPA</a>
     </p>
   </section>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
 
   <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 E. Rohit Kumar. All rights reserved.</p>
   </footer>
+
+  <!-- JS -->
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.body;
+    const icon = themeToggle.querySelector('i');
+
+    if (localStorage.getItem('theme') === 'dark') {
+      body.classList.add('dark-mode');
+      icon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      const dark = body.classList.contains('dark-mode');
+      icon.classList.replace(dark ? 'fa-moon' : 'fa-sun', dark ? 'fa-sun' : 'fa-moon');
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+    });
+
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => backToTop.classList.toggle('show', window.scrollY > 250));
+    backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  </script>
 
 </body>
 </html>
